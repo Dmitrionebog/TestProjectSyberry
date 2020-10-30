@@ -14,19 +14,19 @@ namespace TestProjectSyberry
         {
             if (!context.time_reports.Any() || !context.employees.Any())
             {
-                var tr11 = new Time_report { id = 11, hours = 5.5123f, date = new DateTime(2020, 5, 19) };
-                var tr12 = new Time_report { id = 12, hours = 8.5234f, date = new DateTime(2020, 5, 21) };
-                var tr13 = new Time_report { id = 13, hours = 9.5234f, date = new DateTime(2020, 5, 22) };
-                var tr14 = new Time_report { id = 14, hours = 8.5434f, date = new DateTime(2020, 5, 24) };
-                var tr21 = new Time_report { id = 21, hours = 6.5344f, date = new DateTime(2020, 5, 18) };
-                var tr22 = new Time_report { id = 22, hours = 7.5644f, date = new DateTime(2020, 5, 22) };
-                var tr23 = new Time_report { id = 23, hours = 3.5644f, date = new DateTime(2020, 5, 24) };
-                var tr31 = new Time_report { id = 31, hours = 4.5345f, date = new DateTime(2020, 5, 18) };
-                var tr32 = new Time_report { id = 32, hours = 2.5343f, date = new DateTime(2020, 5, 22) };
-                var tr33 = new Time_report { id = 33, hours = 3.5343f, date = new DateTime(2020, 5, 24) };
-                var tr41 = new Time_report { id = 41, hours = 1.5345f, date = new DateTime(2020, 5, 24) };
-                var tr42 = new Time_report { id = 42, hours = 2.5393f, date = new DateTime(2020, 5, 22) };
-                var tr43 = new Time_report { id = 34, hours = 4.5343f, date = new DateTime(2020, 5, 19) };
+                var tr11 = new Time_report { id = 11, hours = 5.5123f, date = new DateTime(2020, 10, 19) };
+                var tr12 = new Time_report { id = 12, hours = 8.5234f, date = new DateTime(2020, 10, 21) };
+                var tr13 = new Time_report { id = 13, hours = 9.5234f, date = new DateTime(2020, 10, 22) };
+                var tr14 = new Time_report { id = 14, hours = 8.5434f, date = new DateTime(2020, 10, 24) };
+                var tr21 = new Time_report { id = 21, hours = 6.5344f, date = new DateTime(2020, 10, 18) };
+                var tr22 = new Time_report { id = 22, hours = 7.5644f, date = new DateTime(2020, 10, 22) };
+                var tr23 = new Time_report { id = 23, hours = 3.5644f, date = new DateTime(2020, 10, 24) };
+                var tr31 = new Time_report { id = 31, hours = 4.5345f, date = new DateTime(2020, 10, 18) };
+                var tr32 = new Time_report { id = 32, hours = 2.5343f, date = new DateTime(2020, 10, 22) };
+                var tr33 = new Time_report { id = 33, hours = 3.5343f, date = new DateTime(2020, 10, 24) };
+                var tr41 = new Time_report { id = 41, hours = 1.5345f, date = new DateTime(2020, 10, 19) };
+                var tr42 = new Time_report { id = 42, hours = 2.5393f, date = new DateTime(2020, 10, 22) };
+                var tr43 = new Time_report { id = 34, hours = 4.5343f, date = new DateTime(2020, 10, 19) };
 
                 Time_report[] tr = new Time_report[] { tr11, tr12, tr13, tr14, tr21, tr22, tr23, tr31, tr32, tr33, tr41, tr42 ,tr43};
                 context.time_reports.AddRange(tr);
